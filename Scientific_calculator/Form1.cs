@@ -88,11 +88,12 @@ namespace Scientific_calculator
 
         private void btnclear_Click(object sender, EventArgs e)
         {
-            string f, s;
+            txtresult.Text = "0";
+            String f,s;
             f = Convert.ToString(enterFirstValue);
             s = Convert.ToString(enterSecondValue);
-            f = "";
-            s = "";
+            f = " ";
+            s = " ";
         }
 
         private void btnpm_Click(object sender, EventArgs e)
